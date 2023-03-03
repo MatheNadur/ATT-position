@@ -21,6 +21,9 @@
     margin: 0 auto;
     /* border: 2px solid yellow; */
 }
+body{
+background-color: #080324;
+}
 
 
 /* HEADER */
@@ -69,5 +72,58 @@ main .banner{
     background-image: url(../assets/imagens/primeira\ tela.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
+}
+main .banner-flex{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* border: 3px solid white; */
+}
+/* main .banner-flex #banner-infobox, */
+/* main .banner-flex h1, */
+/* main.banner-flex p, */
+/* main .banner-flex img{ */
+     /* border: 3px solid yellow; */
+/* } */
 
+
+main .banner-flex #banner-infobox{
+    width: 545px;
+}
+
+main .banner-flex h1{
+    margin-bottom: 40px;
+    color: white;
+    font-size: 96px;
+    font-family: "bebas",sans-serif;
+}
+
+main .banner-flex p {
+    margin-bottom: 40px;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 53px;
+   font-weight: bold;
+   text-transform: uppercase ;
+    color: #F9003D;
+}
+/* Sobre */
+
+main .sobre-box h2{
+    font-family: "bebas";
+    font-size: 64px;
+    color: #F9003D;
+}
+main .sobre-box .linha {
+    display: flex;
+    justify-content: space-between;
+}
+main .sobre-box .linha img{
+    width: 490px;
+}
+
+main .sobre-box .linha .participantes {
+    width: 590;
+
+    border: 2px solid yellow;
 }
